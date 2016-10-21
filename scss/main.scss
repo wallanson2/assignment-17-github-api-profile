@@ -1,0 +1,199 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+
+body {
+  max-width: 1400px;
+}
+
+img {
+   width: 100%;
+   display: block;
+   border-radius: 10px;
+}
+
+#app-container{
+}
+
+
+.inside-container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+.pic-div {
+  position: relative;
+  //  left: 93%;
+  //  top: -70px;
+   height: 35px;
+   width: 50px;
+}
+.pic-div:hover {
+  cursor: pointer;
+
+}
+.pic-dropdown {
+  // position: relative;
+  left: 93%;
+  top: -70px;
+  display: block;
+  // height: 35px;
+}
+.dropdown-arrow {
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 20;
+}
+.myPic {
+  position: relative;
+  // left: 93%;
+  // top: -68px;
+  margin: 0;
+  height: 35px;
+  width: 35px;
+  border-radius: 25%;
+}
+.profile-col {
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+.follow-btn {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.sm-text {
+  font-size: 10px;
+  // margin-top: 10px;
+}
+.sm-text:hover {
+  cursor: pointer;
+
+}
+.bio-list {
+  padding: 0;
+  li {
+    list-style: none;
+    // .fa {
+    //   margin-right: 5px;
+    // }
+      p {
+        display: inline;
+        margin-left: 10px;
+      }
+  }
+}
+.marker {
+  margin-left: 3px;
+}
+
+.repo-box {
+  list-style: none;
+  color: #4078C0;
+  font-size: 20px;
+  padding-left: 18px;
+}
+.git-nav-input {
+  width: 300px;
+  height: 35px;
+  padding-left: 30px;
+}
+.header-container {
+  height: 50px;
+  padding: 5px 0 0 80px;
+  background: #F5F5F5;
+  margin-bottom: 20px
+}
+.git-icon {
+  margin-right: 5px;
+}
+.header-requests {
+  position: relative;
+  top: -30;
+  left: 350;
+  li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+
+  }
+}
+.header-requests li:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+.repo-input {
+  height: 40px;
+  width: 400px;
+  padding-left: 40px;
+  margin-top: 15px;
+  margin-left: 40;
+}
+.repo-header {
+  height: 50px;
+}
+.repo-header-list {
+  list-style: none;
+  li{
+    display: inline;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 60px;
+  }
+}
+.repo-header-list li:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+.repo-headline {
+  color: #000;
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  list-style: none;
+  padding-left: 35px;
+}
+.stargazer-headline {
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  padding-right: 20px;
+
+}
+.lang-headline {
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+
+.repo-box {
+  border-bottom: .5px solid rgb(220, 220, 220);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.stargazer {
+  float: right;
+  padding-right: 50px;
+}
+.star {
+  padding-right: 10px;
+  color: #696969;
+}
+.language {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  float: right;
+  margin-right: 110px;
+}
+.dropdown-menu {
+  left: -110px;
+}
